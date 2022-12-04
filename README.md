@@ -1,4 +1,4 @@
-# A GEO SatCom Emulation Environment Using *sns3* and Linux TAP
+# GEO SatCom Emulation Using *sns3* and Linux TAP
 
 This is a tutorial on building a GEO satellite communication (SatCom) emulation enivronment by combining the ns-3 SatCom module *sns3* (https://sns3.org/) and Linux TAP devices. Through ns-3's TapBridge module, the following procedure can transform a Linux host with multiple NICs to a SatCom emulation system where two NICs emulate the entry of the User Terminal (UT) and Gateway (GW) of the system, respectively. Then, one can pass real-life data traffic through the two NICs, and the traffic will traverse the GEO system emulated by *sns3*.
 
