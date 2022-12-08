@@ -4,7 +4,7 @@ This is a tutorial on building a GEO satellite communication (SatCom) emulation 
 
 The emulation environment is conceived when testing HTTP adaptive streaming over SatCom in the following paper
 
-> Y. Li, R. Feng, R. Gao and J. Wang, "Fountain Coded Streaming for SAGIN with Learning-based Pause-and-Listen," in _IEEE Networking Letters_, 2022, _accepted_.
+> Y. Li, R. Feng, R. Gao and J. Wang, "Fountain Coded Streaming for SAGIN with Learning-based Pause-and-Listen," in _IEEE Networking Letters_, 2022, _accepted_. (Early Access: https://ieeexplore.ieee.org/document/9973386)
 
 Please kindly cite the work if you find the environment useful.
 
