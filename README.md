@@ -2,9 +2,9 @@
 
 This is a tutorial on building a GEO satellite communication (SatCom) emulation enivronment by combining the ns-3 SatCom module *sns3* (https://sns3.org/) and Linux TAP devices. Through ns-3's TapBridge module, the following procedure can transform a Linux host with multiple NICs to a SatCom emulation system where two NICs emulate the entry of the User Terminal (UT) and Gateway (GW) of the system, respectively. Then, one can pass real-life data traffic through the two NICs, and the traffic will traverse the GEO system emulated by *sns3*.
 
-The emulation environment is conceived when testing HTTP adaptive streaming over SatCom in the following paper
+The emulation environment was built originall for testing HTTP adaptive streaming over SatCom. The work has been published in the following paper
 
-> Y. Li, R. Feng, R. Gao and J. Wang, "Fountain Coded Streaming for SAGIN with Learning-based Pause-and-Listen," in _IEEE Networking Letters_, 2022, _accepted_. (Early Access: https://ieeexplore.ieee.org/document/9973386)
+> Y. Li, R. Feng, R. Gao and J. Wang, "Fountain Coded Streaming for SAGIN With Learning-Based Pause-and-Listen," in IEEE Networking Letters, vol. 5, no. 1, pp. 36-40, March 2023, doi: 10.1109/LNET.2022.3227541.
 
 Please kindly cite the work if you find the environment useful.
 
