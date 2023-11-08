@@ -16,6 +16,8 @@ https://github.com/yeliqseu/tcp-lte-sat
 
 Please clone it and then install necessary sns-3 supplement modules, including sns3-data, magister-traffic, and magister-stats.
 
+**Update***: According to the sns3 project website, it has been made compatible with ns-3.37. So it may not be necessary to use our customized `tcp-lte-sat` anymore (*we didn't verify it though*).
+
 ## 2, ns-3 simulation script
 
 The emulated environment is specified in `sat-tap-emu.cc`. Simply put it in `ns-3.35/scratch/`. Note that the script specifies the user-terminal (UT) side as `10.10.0.1/16`, and the subnet on the gateway(GW) side as `10.31.0.1/16`. Modify them if needed. The routing within the GEO link is handled automatically by sns3.
